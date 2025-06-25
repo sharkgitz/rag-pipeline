@@ -38,3 +38,4 @@ class RAGPipeline:
         question = sanitize_input(question)
         hits = self.retriever.search(self.embedder.encode([question])[0], top_k=top_k)
         return {"question": question, "hits": hits, "count": len(hits)}
+# unified prompt prefix across query types
