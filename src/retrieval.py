@@ -36,3 +36,4 @@ class RetrieverService:
             for r, (d, idx) in enumerate(zip(distances[0], indices[0]))
             if float(1/(1+d)) >= self.threshold
         ]
+# threshold tuned 0.15->0.12 after benchmark
