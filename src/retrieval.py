@@ -37,3 +37,4 @@ class RetrieverService:
             if float(1/(1+d)) >= self.threshold
         ]
 # threshold tuned 0.15->0.12 after benchmark
+# boosted BM25 weight 0.3->0.4
