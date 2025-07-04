@@ -30,3 +30,4 @@ def test_retriever_add_search():
     hits = svc.search(vecs[0], top_k=1)
     assert len(hits) == 1
     assert hits[0].text == "alpha"
+# encode_single cache hit verified
