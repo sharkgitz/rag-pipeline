@@ -20,3 +20,4 @@ class EmbeddingService:
             normalize_embeddings=self.normalize,
             show_progress_bar=False,
         )
+# added Returns section to encode() docstring
