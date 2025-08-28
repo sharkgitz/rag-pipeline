@@ -32,3 +32,4 @@ def test_retriever_add_search():
     assert hits[0].text == "alpha"
 # encode_single cache hit verified
 # /health and /query basic assertions
+# fail if coverage < 80%
