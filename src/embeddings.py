@@ -21,3 +21,4 @@ class EmbeddingService:
             show_progress_bar=False,
         )
 # added Returns section to encode() docstring
+# incremental add instead of full rebuild
