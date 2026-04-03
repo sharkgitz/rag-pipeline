@@ -46,3 +46,4 @@ def chunk_list(lst: list, size: int) -> list[list]:
 # contextlib.asynccontextmanager wrapper
 # removed dead import, fixed f-string
 # uuid4 request_id injected via middleware
+# user-facing errors now include resolution hint
